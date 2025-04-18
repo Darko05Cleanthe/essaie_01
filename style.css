@@ -56,9 +56,9 @@ p {
 }
 .end {
     position: absolute;
-    top:1500px;
+    top:1400px;
     right:280px;
-    font-size: smaller;
+    font-size: 15px;
 }
 .project {
     display:flex;
