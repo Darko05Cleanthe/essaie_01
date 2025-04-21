@@ -1,0 +1,291 @@
+body {
+    background:whitesmoke;
+    position:relative;
+    margin:0%;
+}
+.tete {
+    display:flex;
+    align-items: center;
+    word-spacing: 10vw;
+    justify-content: space-between;
+    background-color: white;
+    font-family:"montserrat"
+}
+.tete img {
+    width:20vw;
+    height:20vh;
+    margin:0%;
+    padding:0%
+}
+.intro {
+    display:flex;
+    align-items: center;
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+}
+.presentation {
+    text-align: center;
+    font-size: 1.3em;
+    color:tan;
+    position:absolute;
+    top: 135vh;
+    right:17vw;
+    font-family: serif;
+}
+.description {
+    text-align: center;
+    font-size: 1.4em;
+    padding:auto;
+}
+p {
+    font-size: 1.5em;
+}
+.dev {
+    color:purple;
+    font-size: 2em;
+    position:absolute;
+    top:105vh;
+    right:20vw;
+    font-family:sans-serif;
+}
+.transition {
+    text-align: center;
+    width:98.9vw;
+    height:80vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    margin:0%;
+}
+.end {
+    position: absolute;
+    top:225vh;
+    right:20vw;
+    font-size:1.1em;
+}
+.project {
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+}
+.intro1{
+    font-size:1.2em;
+    position:absolute;
+    top:600vh;
+    right:70vw;
+    padding:auto;
+    font-family:arial;
+    color:#2c3e50;
+} 
+.list1{
+    font-family: sans-serif;
+    font-size:1.3em;
+
+}
+.sec_competences {
+    padding: 4%;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.competences ul {
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+.competences li {
+    margin-bottom: 3%;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.competences strong {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+.competences img {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+.competences > ul > li {
+    margin-top: 2%;
+    border-left: 0.4em solid #3498db;
+    padding-left: 1%;
+    background-color: #ecf0f1;
+    padding: 2%;
+    border-radius: 3em;
+}
+
+.competences ul ul ul {
+    margin-left: 2%;
+    padding-left: 1%;
+    border-left: 0.3em dashed #95a5a6;
+}
+.contact {
+    text-align: center;
+    font-size: large;
+}
+p{
+    font-size:large;
+}
+.a_propos {
+    text-align: center;
+    color:#8360c3;
+    font-size: 1.5em;
+}
+textarea {
+    width:50vw;
+    height:100vh;
+}
+.container {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width:70vw;
+    height:60vh;
+    padding:2%;
+    align-items: center;
+    margin:1%
+}
+input[type="submit"] {
+     padding: 1%;
+     font-size: 1em;
+     background-color: white;
+     margin:1%;
+}
+.contain {
+    display:flex;
+    justify-content: center;
+}
+a {
+    color:black;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+a:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:violet;
+}
+a:visited {
+    color:blue;
+}
+.decouvert {
+    position:absolute;
+    top:85vh;
+    right:45vw;
+    display: inline-block;
+    padding: 1% 2%;
+    background-color: white;
+    border-radius: 0.8em;
+    font-weight: bold;
+    color:Black;
+}
+.decouvert:hover {
+    color:rosybrown;
+}
+.star {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('Star.png');
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: whitesmoke;
+        margin:0%;
+    }
+    .tete {
+        display:flex;
+        align-items: center;
+        background-color: white;
+        font-family:"montserrat";
+        word-spacing:20vw;
+
+    }
+    .tete img {
+        width:60vw;
+        height:20vh;
+        margin:0%;
+        padding:0%
+    }
+    .decouvert {
+        right:40vw;
+    }
+    .transition {
+        font-size:small;
+    }
+    .full {
+        font-size: 0.9em;
+        font-weight: 100;
+        border:0%;
+    }
+    .intro img {
+        width:90vw;
+        height:50vh;
+    }
+    .intro {
+        width:100vw;
+        height:50vh
+    }
+    .dev {
+        font-size:0.8em;
+        right:5vw;
+        top:102vh;
+    }
+    .presentation {
+        font-size:0.1em;
+        top:107vh;
+        right:0vw;
+        color:black;
+    }
+    .description {
+        font-size:0.8em
+    }
+    .end {
+        font-size:0vw;
+    }
+    .project img {
+        width:60vw;
+        height:80vh;
+    }
+    .project {
+        height:80vh;
+        font-size:0.45em;
+        font-weight: 500;
+    }
+    .list1 {
+        left:0vw;
+        padding:1vw;
+    }
+    .intro1 {
+        top:320vh;
+        left:10vw;
+        text-align: center;
+        font-weight: 500;
+        color:wheat;
+    }
+    .contain {
+        width:100vw;
+        height:80vh;
+        margin:1%;
+    }
+    textarea {
+        width:90vw;
+        height:40vh;
+        border:3vw solid blueviolet;
+        border-radius:2em;
+        margin:1%;
+    }
+    input [type="submit"] {
+        margin:1%
+    }
+    .container {
+        margin:1%;
+    }
+}
